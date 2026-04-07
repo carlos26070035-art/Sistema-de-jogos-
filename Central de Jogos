@@ -1,0 +1,120 @@
+#include <stdio.h>
+ #include <stdlib.h>
+ #include <locale.h>
+
+ int main() {
+ // Permite acentuação no console
+ setlocale(LC_ALL, "Portuguese");
+ int opcao;
+
+ do {
+ system("cls"); // Limpa a tela (específico para Windows/Dev-C++)
+ printf("========================================\n");
+ printf(" CENTRAL DE JOGOS C \n");
+ printf("========================================\n");
+ printf(" 1 - JOGO DE PERGUNTAS\n");
+ printf(" 2 - COBRA NA CAIXA\n");
+ printf(" 3 - GOUSMAS WAR\n");
+ printf(" 0 - SAIR\n");
+ printf("----------------------------------------\n");
+ printf("Escolha uma opção: ");
+ scanf("%d", &opcao);
+
+ switch(opcao) {
+ case 1:
+ printf("\nIniciando JOGO DE PERGUNTAS...\n");
+
+int op;
+
+printf("\nJogo de perguntas \n");
+
+system("Pause);
+system("cls");
+
+
+printf("Primeira pergunta\n");
+
+printf("\n Qual o inical mais famoso da regiao de kanto ?\n");
+
+printf("1 -> Pikachu ?\n");
+ printf("2 -> Bulbasaur ?\n");
+ printf("3 -> Squirtle ?\n");
+ printf("4 -> Charmander ?\n");
+
+scanf("%d" , &op);
+
+
+ switch(op){
+
+ case 1: printf("Voce acertou, o Pikachu e o mais famoso entre os pokemons, devido a sua tipagem e por conta do anime
+ break;
+ case 2: printf("Infelizmente voce errou, pois o Charmander e o mais famoso entre os iniciais, dev
+ break;
+ case 3: printf("Infelizmente voce errou, pois o Charmander e o mais famoso entre os iniciais, dev
+ break;
+ case 4: printf("Infelizmente voce errou , pois o Pikachu e o mais famoso entre os pokemons, devid
+ break;
+
+ }
+system("Pause");
+system("cls");
+
+printf("Segunda pergunta\n);
+
+printf("Quem Descobriu o Brasil?");
+
+
+printf("1 -> Napoleao Bonaparte ?\n");
+ printf("2 -> Michael Jackson ?\n");
+ printf("3 -> Mandela ?\n");
+ printf("4 -> Pedro Alvares Cabral ?\n");
+
+scanf("%d" , &op);
+
+
+ switch(op){
+
+ case 1: printf("Infelizmente voce errou. Bonaparte nao nasceu em 1500. Bonaparte assumiu o poder em 1890
+
+ break;
+ case 2: printf("Infelizmente voce errou. Michael Jackson nem existia naquela epoca. \n")
+ break;
+ case 3: printf("Infelizmente voce errou. Mandela foi um lider sul africano e nao existia em 1500\
+ break;
+ case 4: printf("Parabens voce acertou!!! Pedro foi quem descobriu o Brasil em 1500\n")
+ break;
+
+ }
+
+
+
+
+
+
+
+ break;
+ case 2:
+ printf("\nIniciando COBRA NA CAIXA...\n");
+ system("COBRA.exe");
+ break;
+ case 3:
+ printf("\nIniciando GOUSMAS WAR...\n");
+ system("GOUSMAS.exe");
+ break;
+ case 0:
+ printf("\nSaindo do programa. Até logo!\n");
+ break;
+ default:
+ printf("\nOpção inválida! Tente novamente.\n");
+ system("pause");
+ }
+
+ // Se não for a opção de sair, ele pausa para o usuário ler o retorno do jogo
+ if(opcao != 0) {
+ printf("\nRetornando ao menu principal...\n");
+ system("pause");
+ }
+
+ } while(opcao != 0);
+
+ return 0;
