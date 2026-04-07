@@ -7,4 +7,4 @@ Cobra na Caixa: Nesse jogo, há uma opção dizendo que se o Jogador quisera ver
 
 Gousmas war: Nesse jogo, cada jogador começa com 2 gousmas com nivel de fúria 1. caso alguma gousma ultrapasse a fúria 5, ele se desistegra. no jogo, há duas ações, atacar e dividir e caso fique sem uma gousma, se você tiver pelo menos 2 gousmas em sua mão esquerda, você pode trocas para a mão direita.
 
-Integrantes: Carlos Eduardo
+Integrante: Carlos Eduardo
